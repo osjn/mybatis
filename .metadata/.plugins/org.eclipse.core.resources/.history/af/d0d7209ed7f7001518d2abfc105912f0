@@ -1,0 +1,5 @@
+package com.leclex.dao;
+
+public interface UserDao {
+
+}
