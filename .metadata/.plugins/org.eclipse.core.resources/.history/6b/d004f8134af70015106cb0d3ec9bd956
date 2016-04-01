@@ -1,0 +1,18 @@
+package com.leclex.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MybatisSpringTest {
+
+	private static ApplicationContext context;
+	
+	static {
+		context = new ClassPathXmlApplicationContext("config/applicationContext.xml");
+	}
+	
+	public static void main(String[] args) {
+		MybatisSpringTest testUser = new MybatisSpringTest();
+	}
+
+}

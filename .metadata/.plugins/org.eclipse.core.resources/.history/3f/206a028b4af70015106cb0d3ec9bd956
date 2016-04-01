@@ -1,0 +1,24 @@
+package com.leclex.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.leclex.mybatis.inter.IUserOperation;
+import com.leclex.mybatis.model.User;
+
+public class MybatisSpringTest {
+
+	private static ApplicationContext context;
+	
+	static {
+		context = new ClassPathXmlApplicationContext("config/applicationContext.xml");
+	}
+	
+	public static void main(String[] args) {
+		IUserOperation mapper = (IUserOperation)context.getBean("userMapper");
+		System.out.println("得到用户id=2的用户信息");
+		User user = mapper.selectUserByID(2);
+		System.out.println(user.getUserAddress());
+	}
+
+}

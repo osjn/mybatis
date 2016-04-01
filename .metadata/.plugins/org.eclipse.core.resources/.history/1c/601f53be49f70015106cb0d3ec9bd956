@@ -1,0 +1,21 @@
+package com.leclex.test;
+
+import java.io.Reader;
+import java.util.List;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+import com.leclex.mybatis.inter.IUserOperation;
+import com.leclex.mybatis.model.Article;
+import com.leclex.mybatis.model.User;
+
+public class MybatisSpringTest {
+
+	public static void main(String[] args) {
+		MybatisSpringTest testUser = new MybatisSpringTest();
+	}
+
+}

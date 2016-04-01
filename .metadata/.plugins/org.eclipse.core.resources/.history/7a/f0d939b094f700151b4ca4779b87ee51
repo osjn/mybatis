@@ -1,0 +1,5 @@
+package com.leclex.mybatis.controller;
+
+public class UserController {
+
+}
