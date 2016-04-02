@@ -1,6 +1,0 @@
-package com.leclex.dao;
-
-public interface UserDao {
-
-	public List<Article> getUserArticles(int userid);
-}

@@ -139,10 +139,36 @@
 		<item value="org.springsource.sts.package:3.7.3.201602251025-RELEASE-e46"/>
 		<item value="org.springsource.sts:3.7.3.201602251025-RELEASE"/>
 	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="433" key="DIALOG_X_ORIGIN"/>
+		<item value="104" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\github\mybatis\MyBatis_Spring3_jsp"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
 	<section name="NewWizardAction">
 		<item value="com.springsource.sts.wizard.template" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
 		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="36" key="DIALOG_X_ORIGIN"/>
+		<item value="155" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

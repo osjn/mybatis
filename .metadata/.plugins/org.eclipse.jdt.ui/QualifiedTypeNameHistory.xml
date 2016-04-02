@@ -3,5 +3,10 @@
 <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
 <fullyQualifiedTypeName name="com.leclex.mybatis.inter.IUserOperation"/>
 <fullyQualifiedTypeName name="com.leclex.mybatis.model.User"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="org.mybatis.generator.exception.XMLParserException"/>
+<fullyQualifiedTypeName name="org.mybatis.generator.config.Configuration"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 </qualifiedTypeNameHistroy>
